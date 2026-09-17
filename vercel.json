@@ -3,11 +3,11 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/(.*).js",
       "headers": [
         {
           "key": "Content-Type",
-          "value": "text/html; charset=utf-8"
+          "value": "application/javascript; charset=utf-8"
         }
       ]
     }
